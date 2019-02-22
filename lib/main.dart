@@ -1,6 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'package:loja_virtual/screens/home_screen.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Loja Virtual Flutter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        primaryColor: Color.fromARGB(255, 4, 125, 141)
+        primaryColor: Color.fromARGB(255, 11, 144, 253),
       ),
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
